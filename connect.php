@@ -15,8 +15,8 @@
 		$stmt->bind_param("ssiss", $fullname,  $email,  $phone,  $subject,  $message);
 		$execval = $stmt->execute();
 		echo $execval;
-		echo "Data submit successfully...";
+		echo "Data submit successfully...😊😊😊 ";
 		$stmt->close();
-		$conn->close();
+		$conn->close();;
 	}
 ?>
